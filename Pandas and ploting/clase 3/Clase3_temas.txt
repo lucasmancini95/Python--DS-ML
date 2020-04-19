@@ -1,0 +1,8 @@
+Repaso de los conceptos de la clase pasada y resolución de ejercicios de la guía.
+------------------------------------
+Introducción a las librerías pandas, patplotlib y seaborn
+
+Usamos datos de tips.csv, breast_cancer.csv y FAO.csv como ejemplos
+Ver carpetas "Parte 1", "Parte 2" y "Parte 3".
+
+Modalidad: 3x(explicación breve, ejercicios en las máquinas)

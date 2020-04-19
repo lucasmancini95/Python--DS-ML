@@ -1,0 +1,50 @@
+﻿Repaso de los conceptos de la clase pasada y resolución de ejercicios de la guía.
+
+------------------------------------
+
+
+Ciclos, funciones y condicionales
+
+Tuplas y su diferencia con las listas.
+Diccionarios y conjuntos (sets) en Python.
+
+
+Ver el tutorial de Python hatsa página 36
+
+
+
+------------------------------------
+
+Números aleatorios:
+
+np.rand.randint(m,M,n)
+
+
+------------------------------------
+
+Búsqueda binaria:
+
+
+Ejercicio1: 
+la maq genera un nro aleatorio y el usuario lo tiene que adivinar en sucesivo s intentos.
+ La máquina responde mayor, menor o igual a cada intento.
+
+
+Ejercicio2: el usuario inventa un nro entre 1 y 1024 y el algoritmo lo tiene que adivinar en a lo sumo 10 intentos. 
+A cada intento, el algoritmo sabe si es >, < o =. Hay estrategia ganadora? 
+
+
+------------------------------------
+
+Terminar con una introducción a los arrays de numpy.
+Ver el ipython notebook adjunto: Numpy.ipnb
+
+
+------------------------------------
+
+
+MATERIAL COMPLEMENTARIO SOBRE PYTHON:
+http://docs.python.org.ar/tutorial/
+http://www.openbookproject.net/books/bpp4awd/index.html
+
+

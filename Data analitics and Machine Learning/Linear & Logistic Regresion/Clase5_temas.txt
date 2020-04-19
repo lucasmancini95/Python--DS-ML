@@ -1,0 +1,48 @@
+Repaso de los conceptos de la clase pasada y resolución de ejercicios de la guía.
+------------------------------------
+Regresión Lineal y Logística.
+Material teórico: CS229 Lecture notes, por Andrew Ng.
+
+------------------------------------
+A. Regresión lineal:
+
+Idea general, librería sklearn
+
+Medidas de ajuste (R2 y MSE)
+https://en.wikipedia.org/wiki/Coefficient_of_determination
+
+Ejemplo 1. Diabetes de manual (1 var, todas, vars de 1 a -1)
+http://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html
+
+Teoría: 
+Descenso por el gradiente (Ng, Parte I, cap 1)
+Ecuaciones Normales (Ng 2.2)
+Interpretación probabilística
+
+Ejemplo 2: Dataset de precios de propiedades con outliers
+Tarea. Tips por 4 categorías
+------------------------------------
+B. Regresión logística:
+Idea general. 
+
+Definición de f.logística
+https://en.wikipedia.org/wiki/Logistic_function
+
+
+Ejemplo Random
+http://scikit-learn.org/stable/auto_examples/linear_model/plot_logistic.html
+
+Marie:
+Perceptrón
+
+
+Tarea: Usar el dataset de Breast Cancer
+------------------------------------
+
+Otros:
+------
+Plots Categóricos:
+https://seaborn.pydata.org/tutorial/categorical.html#
+ - sns.PairGrid
+ - sns.factorplot
+

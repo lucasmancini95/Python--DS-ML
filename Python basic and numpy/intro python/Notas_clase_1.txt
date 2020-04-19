@@ -1,0 +1,91 @@
+
+los tipos de datos se definen solo dependiendo de que dato le introduzcas
+cada variable definida es un objeto de la clase del mismo nombre que la variable, es decir tiene parametros y metodos.
+con type(variable) te dice de que clase es el objeto
+para usar un metodo de la clase es igual que en c++ o en java --> osea variable.metodo(parametros)
+se puede pasar una variable que es un objeto de clase str a uno de int de la sigiente forma ---> int(nombre) y eso es posible con cualquier tipo dato
+
+
+ejercicio 1;
+
+cap_ini=100
+tasa_int=1.1
+meses=7
+cap_fin=cap_ini * (tasa_int**meses)
+print(cap_fin)
+
+ejercicio 2;
+#existe el tipo de dato lista, y es mixta:
+lista_1=[123,"hola",5.2,'q']
+#defini la lista 1 que tiene 4 cosas distintas, int,str,float,char
+#para mostrar:
+list[2]
+#me da 5.2
+#las listas tiene un monton de metodos internos
+ 
+
+ejercicio 3:
+# para importar una biblioteca se pone: import numpy 
+# en general se usan acronimo, ya que cada vez que uso una funcion de la biblioteca tengo que poner nombre_libreria.nombre_funcion()
+# se hace con import nombre_paquete as acronimo_que_Quiero
+# si no tengo un paquete en la compu tengo que bajar el paquete en la compu, en ubuntu es con el comando de terminal: pip nombre_libreria
+
+ejercicio 4:
+
+for i in list(range(7))+ list(range(7,0,-2)) + list(range(5,7,1)) + list(range(7,0,-1)):
+    print(i*'*')
+ te da:
+
+ *
+**
+***
+****
+*****
+******
+*******
+*****
+***
+*
+*****
+******
+*******
+******
+*****
+****
+***
+**
+*
+
+ejercicio 5:
+
+familia=["madre",1.7,"padre",1.8,"nino1",1,"nino2",0.8,"nino3",0.3]
+
+for h in familia[1::2]:
+    if(h>1.5):
+        print("alto")
+    elif(0.5<h):
+        print("niño")
+    else:
+        print("bebe")
+
+ejercicio 6:
+programa que identifica unidad de temperatura y te devuelve la unidad contraria  ( de F a C)
+
+
+    def convert_F(num):
+        num=num*(9/5)+32
+        print(num)
+    def convert_C(num2): 
+        num2=num2*(5/9)-32
+        print(num2)
+    
+    data_in=input("ingrese la temperatura que quiere convertir")
+    
+    if(data_in.find('F')!=-1 or data_in.find('C')!=-1 ):
+        print("ok")
+        if(data_in.find('F')!=-1):
+         convert_F(float(data_in[:-1]))
+        else:
+         convert_C(float(data_in[:-1]))
+         
+    else: print("error")

@@ -1,0 +1,150 @@
+Lenguajes compilados, interpretados, etc
+Python se combina bien con C y Fortran (Flexibilidad + Velocidad)
+
+Distribución Anaconda de Python: https://www.anaconda.com/
+Scipy
+
+Formas de correr: 
+- Scripts desde linea de comando
+- Ipython
+- Notebooks (Jupiter)
+- Ide -> Spyder
+
+Filosofía: import this
+
+Ejemplos:
+
+Análisis exploratorio de datos:
+https://en.wikipedia.org/wiki/Exploratory_data_analysis
+
+La importancia de graficar (Cuarteto Anscombe):
+https://en.wikipedia.org/wiki/Anscombe%27s_quartet
+
+Datasets y ejemplos interesantes:
+Kaggle:
+Iris en python:
+https://www.kaggle.com/benhamner/python-data-visualizations
+
+Breast Cancer:
+https://www.kaggle.com/kanncaa1/feature-selection-and-data-visualization
+
+
+------------------------------
+
+print
+
+# comentarios
+
+op arit y tipos de datos
+
++ * / **
+
+tipo: int, float
+
+ejemplo: calcular el rendimiento de un plazo fijo a 7 años con tasa del 10% anual
+
+str (obs que + es concatenar)
+
+tipo bool
+
+Datos en memoria, bit, conversion de tipos
+
+-----------------------------------
+
+Listas
+
+fam=['pa',1.83,'ma',1.68,'nene',0.98]
+fam=fam+['nena',0.75]
+fam[0:4]
+fam[-2:]
+fam[1::2]
+fam[1:4:2]
+fam[1:4:2]
+
+--------------------
+
+Listas y memoria
+
+fam2=fam
+fam2[-1]=1.21
+fam2
+fam
+
+#Ohhh
+
+
+fam3=fam.copy()
+fam3[-1]=0
+fam3
+fam
+#OK!
+
+-------------------------------
+
+Funciones
+
+H=fam[1::2]
+H
+max(H)
+min(H)
+h=H[2]
+round(h)
+
+help(round)
+
+round(h,1)
+round(h,2)
+
+int, float, bool, str son funciones
+
+----------------------------------------
+
+Métodos en listas
+
+
+fam.index('ma')
+fam.count('ma')
+fam[-1]=0.98
+fam
+fam.count(0.98)
+
+----------------------------------------
+
+Métodos en strings
+
+s=fam[-2]
+s
+s.capitalize()
+s.replace('a','ita')
+s.index('a')
+
+F=fam[::2]
+[s.endswith('a') for s in F]
+
+-----------------
+
+Métodos que modifican listas
+
+F.append['abuelo']
+F.reverse
+F.remove['abuelo']
+
+--------------------
+
+Paquetes: instalación, import y usos
+
+$pip install numpy
+
+import numpy
+import numpy as np
+from math import radians as rad
+
+-------------------
+
+Ciclos y condicionales:
+
+for, if, while
+
+Curso de Loops y condicionales con ejercicios
+http://www.openbookproject.net/books/bpp4awd/index.html
+http://www.openbookproject.net/books/bpp4awd/ch04.html
